@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PSD PROJECT</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <style>
+      body {
+        margin-top: 15px;
+        background-color:grey;
+      }
+      a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+      }
+      span{
+        color: white;
+        text-align: justify;
+      }
+      .title {
+        width: 50%;
+        font-size: 20px;
+        font-family: "Snell Roundhand", cursive;
+        color:white;
+      }
+      .header {
+        width: 9%;
+        font-size: 15px;
+        font-family: "Snell Roundhand", cursive;
+        color: rgb(255, 238, 2);
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      #lang {
+        background-color: rgb(135, 206, 235);
+      }
+      #headmain {
+        text-align: center;
+        font-size: 50px;
+        font-family: "Brush Script MT", "Brush Script Std", cursive;
+        color: rgb(255, 238, 0);
+      }
+      #tag {
+        font-family: "Brush Script MT", "Brush Script Std", cursive;
+        font-size: 25px;
+        color: rgb(255, 238, 0);
+      }
+      #round{
+        border-radius: 50%;
+        border: 10px solid grey;
+      }
+      hr {
+      border: none;
+      border-top: 1px solid #333;
+      color: #333;
+      overflow: visible;
+      text-align: center;
+      height: 1px;
+      }
+
+hr:after {
+    background:rgb(51, 51, 51);
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    content: 'Layout';
+    padding: 2px 25px;
+    position: relative;
+    top: -10px;
+}
+.flex_boxes1 {
+  display: inline-block;
+  background-color: darkred;
+  box-sizing: border-box;
+  width: 100%;
+
+  
+}
+.flex_boxes1>div  {
+  background-color: darkred;
+  margin: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+#submit{
+  background-color: lightgreen;
+  border-radius: 10px;
+
+}
+.flex_boxes{
+  background-color:rgb(83, 0, 0);
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+}
+.flex_boxes>div{
+  background-color:rgb(83, 0, 0);
+  margin: 40px;
+  padding-left: 150px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.main_flex{
+  display: inline-block;
+  background-color: darkred;
+  box-sizing: border-box;
+  width: 100%;
+}
+.main_flex>div{
+  background-color: white;
+  width: 160px;
+  padding: 20px;
+  margin: 80px;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.main_flex>div:hover{
+  background-color: lightgreen;
+  color: white;
+  width: 160px;
+  text-align: center;
+}
+footer{
+  color: white;
+  background-color: gray;
+}
+.header_flex{
+  display: inline-block;
+  background-color:rgb(83, 0, 0);
+  color: white;
+  box-sizing: border-box;
+  width: 100%;
+}
+.header_flex>div{
+  box-sizing: border-box;
+  color: white;
+  padding: 10px;
+  margin-left: 74px;
+  display: inline-block;
+}
+.footer_flex{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+}
+.footer_flex>div{
+  padding: 10px;
+  margin: 40px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.black{
+  color: black;
+}
+.cimg{
+  border: 7px solid white;
+}
+
+</style>
+  </head>
+  <body>
+    <!--Header Flex-->
+    <div class="header_flex">
+   
+    <span class="title" style="text-align:center; padding-right: 100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The <br>&nbsp;&nbsp;Modernist</span>
+   
+   
+      <div>
+        <th class="header" >
+          <a href="index.html" style="background-color: lightgreen; padding: 5px; border-radius:10px">Home</a>
+        </th>
+    </div>
+
+    <div>
+        <th class="header">
+          <a href="pages.html">Style Demo</a>
+        </th>
+    </div>
+
+    <div>
+        <th class="header">
+          <a href="element.html"> Full Width
+        </th></a>
+    </div>
+
+    <div>
+        <th class="header">
+          <a href="portfolio.html"> DropDown 
+        </th></a>
+    </div>
+
+    <div>
+        <th class="header">
+          <a href="shop.html"> Portfolio
+        </th></a>
+    </div>
+
+    <div>
+        <th class="header">
+          <a href="shop.html"> Gallery
+        </th></a>
+    </div>
+    <br>
+    </div>
+
+                            <!--Main Div-->
+
+    <div class="flex_boxes">
+         <div>
+          <img src="images/image.jpg" alt="" width="380px" height="380px">
+         </div>
+         <div>
+          <img src="images/image.jpg" alt="" width="380px" height="380px" id="round">
+         </div>
+    </div>
+
+                        <!--Middle Part Images-->
+
+    <div class="main_flex">
+
+        <div class="imgdiv">
+          <img src="images/image.jpg" alt="" width="120px" height="120px"><br>
+          <a class="black">First image</a><br><br>
+          <span class="black">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dignissimos!</span>
+        </div>
+        <div class="imgdiv">
+         <img src="images/image.jpg" alt="" width="120px" height="120px"><br>
+         <a class="black">Second image</a><br><br>
+         <span class="black">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dignissimos!</span>
+        </div>
+        <div class="imgdiv"><img src="images/image.jpg" alt="" width="120px" height="120px"><br>
+          <a class="black">Third image</a><br><br>
+          <span class="black">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dignissimos!</span>
+        </div>
+        <div class="imgdiv"><img src="images/image.jpg" alt="" width="120px" height="120px"><br>
+          <a class="black">Fourth image</a><br><br>
+          <span class="black"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dignissimos!</span>
+        </div>
+    </div>
+    <hr>
+
+                          <!--Bottom Part Images-->
+
+    <p style="text-align: center; font-size: 17px; color: white;">Work</p>
+      
+    <div class="flex_boxes1">
+      <div>
+        <img src="images/image.jpg" alt="" width="290px" height="190px" class="cimg">
+        <div class="bottom"><span>Top Left</span>    
+      </div>
+    </div>
+
+      <div>
+        <img src="images/image.jpg" alt="" width="290px" height="190px" class="cimg">
+        <div class="bottom"><span>Top Center</span>
+      </div>
+    </div>
+
+      <div>
+        <img src="images/image.jpg" alt="" width="290px" height="190px" class="cimg">
+        <div class="bottom"><span>Top Right</span>
+        </div>
+    </div>
+  </div>
+  <div class="flex_boxes1">
+      <div>
+        <img src="images/image.jpg" alt="" width="290px" height="190px" class="cimg">
+        <div class="bottom"><span>Bottom Left</span>    
+      </div>
+    </div>
+
+      <div>
+        <img src="images/image.jpg" alt="" width="290px" height="190px" class="cimg">
+        <div class="bottom"><span>Bottom Center</span>
+      </div>
+    </div>
+
+      <div>
+        <img src="images/image.jpg" alt="" width="290px" height="190px" class="cimg">
+        <div class="bottom"><span>Bottom Right</span>
+      </div>
+    </div>
+  </div>
+
+  
+<footer>
+<div class="footer_flex">
+
+    <div>
+     <h4>From The Blog</h4>
+     <p>Post Title</p>
+     <p>Admin,domainname.com</p>
+     <p>Friday,6th April 2000</p>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> 
+       Provident non voluptatum saepe repellendus totam explicabo.</p> 
+     </div>
+    <div>
+    <h4>Quick Links</h4>
+    <ul>
+      <li><a href="https://www.google.com"></a>Lorem ipsum dolor sit amet.</li>
+      <li><a href="https://www.google.com"></a>Lorem ipsum dolor sit.</li>
+      <li><a href="https://www.google.com"></a>Lorem ipsum dolor.</li>
+      <li><a href="https://www.google.com"></a>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+    </ul>
+    </div>
+    <div>
+      <form>
+        <h4>Contact Us</h4>
+        <input type="text" placeholder="Full Name" name="fullname" width="100%"><br>
+        <input type="email" placeholder="Email Address" name="mail" width="100%"><br>
+        <input type="text" placeholder="Subject" name="sub" width="100%"><br>
+        <textarea placeholder="message" name="message" size="100%"></textarea><br>
+        <input type="submit" value="Submit" id="submit">
+      </form>
+    </div>
+
+</footer>
+  </body>
+</html>
