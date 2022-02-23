@@ -64,7 +64,7 @@
       height: 1px;
       }
 
-hr:after {
+hr:after{
     background:rgb(51, 51, 51);
     color: white;
     border-radius: 10px;
@@ -74,20 +74,23 @@ hr:after {
     position: relative;
     top: -10px;
 }
-.flex_boxes1 {
+.flex_boxes1{
   display: inline-block;
   background-color: darkred;
   box-sizing: border-box;
   width: 100%;
 
-  
 }
-.flex_boxes1>div  {
+.flex_boxes1>div{
   background-color: darkred;
   margin: 20px;
   padding: 40px;
   box-sizing: border-box;
   display: inline-block;
+}
+
+.flex_boxes1>div>img:hover{
+  border: 7px solid lightgreen;
 }
 
 #submit{
@@ -104,7 +107,7 @@ hr:after {
 .flex_boxes>div{
   background-color:rgb(83, 0, 0);
   margin: 40px;
-  padding-left: 150px;
+  padding-left: 80px;
   box-sizing: border-box;
   display: inline-block;
 }
@@ -125,7 +128,6 @@ hr:after {
 }
 .main_flex>div:hover{
   background-color: lightgreen;
-  color: white;
   width: 160px;
   text-align: center;
 }
@@ -164,11 +166,18 @@ footer{
 .cimg{
   border: 7px solid white;
 }
+.text{
+color:white;
+padding-top: 7%;
+float:left;
+width:45%;
+text-align:justify;
+}
 
 </style>
   </head>
   <body>
-    <!--Header Flex-->
+    						<!--Header Flex-->
     <div class="header_flex">
    
     <span class="title" style="text-align:center; padding-right: 100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The <br>&nbsp;&nbsp;Modernist</span>
@@ -215,11 +224,15 @@ footer{
                             <!--Main Div-->
 
     <div class="flex_boxes">
+          <div class="text"><a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dignissimos!
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dignissimos!
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dignissimos!
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dignissimos!
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dignissimos!
+		amet consectetur adipisicin adipis.
+		</a></div>
          <div>
-          <img src="image.jpg" alt="Main DIV First Image" width="380px" height="380px">
-         </div>
-         <div>
-          <img src="image.jpg" alt="Main DIV Second Image" width="380px" height="380px" id="round">
+          <img src="images/image.jpg" alt="" width="380px" height="380px" id="round">
          </div>
     </div>
 
@@ -228,20 +241,20 @@ footer{
     <div class="main_flex">
 
         <div class="imgdiv">
-          <img src="image.jpg" alt="Middle DIV First Image" width="120px" height="120px"><br>
+          <img src="images/image.jpg" alt="" width="120px" height="120px"><br>
           <a class="black">First image</a><br><br>
           <span class="black">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dignissimos!</span>
         </div>
         <div class="imgdiv">
-         <img src="image.jpg" alt="Middle DIV Second Image" width="120px" height="120px"><br>
+         <img src="images/image.jpg" alt="" width="120px" height="120px"><br>
          <a class="black">Second image</a><br><br>
          <span class="black">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dignissimos!</span>
         </div>
-        <div class="imgdiv"><img src="image.jpg" alt="Middle DIV Third Image" width="120px" height="120px"><br>
+        <div class="imgdiv"><img src="images/image.jpg" alt="" width="120px" height="120px"><br>
           <a class="black">Third image</a><br><br>
           <span class="black">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dignissimos!</span>
         </div>
-        <div class="imgdiv"><img src="image.jpg" alt="Middle DIV Fourth Image" width="120px" height="120px"><br>
+        <div class="imgdiv"><img src="images/image.jpg" alt="" width="120px" height="120px"><br>
           <a class="black">Fourth image</a><br><br>
           <span class="black"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, dignissimos!</span>
         </div>
@@ -254,38 +267,38 @@ footer{
       
     <div class="flex_boxes1">
       <div>
-        <img src="image.jpg" alt="Bottom DIV First Image" width="290px" height="190px" class="cimg">
+        <img src="images/image.jpg" alt="" width="290px" height="190px" class="cimg">
         <div class="bottom"><span>Top Left</span>    
       </div>
     </div>
 
       <div>
-        <img src="image.jpg" alt="Bottom DIV Second Image" width="290px" height="190px" class="cimg">
+        <img src="images/image.jpg" alt="" width="290px" height="190px" class="cimg">
         <div class="bottom"><span>Top Center</span>
       </div>
     </div>
 
       <div>
-        <img src="image.jpg" alt="Bottom DIV Third Image" width="290px" height="190px" class="cimg">
+        <img src="images/image.jpg" alt="" width="290px" height="190px" class="cimg">
         <div class="bottom"><span>Top Right</span>
         </div>
     </div>
   </div>
   <div class="flex_boxes1">
       <div>
-        <img src="image.jpg" alt="Bottom DIV Fourth Image" width="290px" height="190px" class="cimg">
+        <img src="images/image.jpg" alt="" width="290px" height="190px" class="cimg">
         <div class="bottom"><span>Bottom Left</span>    
       </div>
     </div>
 
       <div>
-        <img src="image.jpg" alt="Bottom DIV Fifth Image" width="290px" height="190px" class="cimg">
+        <img src="images/image.jpg" alt="" width="290px" height="190px" class="cimg">
         <div class="bottom"><span>Bottom Center</span>
       </div>
     </div>
 
       <div>
-        <img src="image.jpg" alt="Bottom DIV Sixth Image" width="290px" height="190px" class="cimg">
+        <img src="images/image.jpg" alt="" width="290px" height="190px" class="cimg">
         <div class="bottom"><span>Bottom Right</span>
       </div>
     </div>
